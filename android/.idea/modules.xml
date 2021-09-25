@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ftlon.iml" filepath="$PROJECT_DIR$/.idea/modules/Ftlon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Ftlon.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Ftlon.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/953696295/Ftlon.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/953696295/Ftlon.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-491236720/Ftlon.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-491236720/Ftlon.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2103898508/Ftlon.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/2103898508/Ftlon.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1019283193/Ftlon.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1019283193/Ftlon.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-948889007/Ftlon.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-948889007/Ftlon.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1739647196/Ftlon.react-native-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/1739647196/Ftlon.react-native-splash-screen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/213984046/Ftlon.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/213984046/Ftlon.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1609125702/Ftlon.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1609125702/Ftlon.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>

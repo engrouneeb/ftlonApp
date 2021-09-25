@@ -1,0 +1,16 @@
+com/ftlon/MainActivity.java
+ com.ftlon.MainActivity
+com/ftlon/BuildConfig.java
+ com.ftlon.BuildConfig
+com/ftlon/ReactNativeFlipper.java
+ com.ftlon.ReactNativeFlipper
+ com.ftlon.ReactNativeFlipper$1
+ com.ftlon.ReactNativeFlipper$2
+ com.ftlon.ReactNativeFlipper$2$1
+com/ftlon/SplashActivity.java
+ com.ftlon.SplashActivity
+com/ftlon/MainApplication.java
+ com.ftlon.MainApplication
+ com.ftlon.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

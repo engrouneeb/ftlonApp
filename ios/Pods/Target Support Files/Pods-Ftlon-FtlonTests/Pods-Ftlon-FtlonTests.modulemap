@@ -1,0 +1,6 @@
+module Pods_Ftlon_FtlonTests {
+  umbrella header "Pods-Ftlon-FtlonTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
