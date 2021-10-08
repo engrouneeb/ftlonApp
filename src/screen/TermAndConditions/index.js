@@ -15,7 +15,7 @@ const TermCondition = () => {
     const [showGeneral,setShowGeneral] = useState(false);
     return (
         <ScrollView style={{backgroundColor:Colors.WHITE}}>
-            <View style={{marginTop:20,marginLeft:0,paddingBottom:20,borderBottomWidth:.25,borderColor:Colors .GRAY,width:"94%",alignSelf:"center"}}>
+            <View style={styles.mainViewStyle}>
                     <View style={{flexDirection:"row"}}>
                             <Text style={styles.mainHeading}>Terms of service agreement</Text>
                             <Pressable style={styles.iconStyle} onPress={()=> setTermsOfServiceAgreement(!termsOfServiceAgreement)}>
@@ -30,7 +30,7 @@ const TermCondition = () => {
                         <Text style={styles.mainParagraph}>Once we receive the order, before delivery we will call and confirm the delivery location and time. We do free delivery across Bangalore and Mysore as per the scheduled policy from our fulfillment center which is located in Pandavapura, Mandya. The minimum order value should be Rs. 500 Products will be packaged based on the type of items (Fruits & Vegetables, Grocery, Oils/Ghee, and Dairy Products). We are also practicing zero waste packaging for online delivery with the help of cotton cloth bags and glass jars and we return those bags and glass jars after delivering to the customer. This is our Innovative step to make eco-friendly Bangalore and Mysore with the help of our FTLON customers.</Text>
                     </View>
             </View>
-            <View style={{marginTop:20,marginLeft:0,paddingBottom:20,borderBottomWidth:.25,borderColor:Colors .GRAY,width:"94%",alignSelf:"center"}}>
+            <View style={styles.mainViewStyle}>
                     <View style={{flexDirection:"row"}}>
                             <Text style={styles.mainHeading}>I. Products</Text>
                             <Pressable style={styles.iconStyle} onPress={()=> setShowProducts(!showProducts)}>
@@ -45,7 +45,7 @@ const TermCondition = () => {
                         <Text style={styles.mainParagraph}>Once we receive the order, before delivery we will call and confirm the delivery location and time. We do free delivery across Bangalore and Mysore as per the scheduled policy from our fulfillment center which is located in Pandavapura, Mandya. The minimum order value should be Rs. 500 Products will be packaged based on the type of items (Fruits & Vegetables, Grocery, Oils/Ghee, and Dairy Products). We are also practicing zero waste packaging for online delivery with the help of cotton cloth bags and glass jars and we return those bags and glass jars after delivering to the customer. This is our Innovative step to make eco-friendly Bangalore and Mysore with the help of our FTLON customers.</Text>
                     </View>
             </View>
-            <View style={{marginTop:20,marginLeft:0,paddingBottom:20,borderBottomWidth:.25,borderColor:Colors .GRAY,width:"94%",alignSelf:"center"}}>
+            <View style={styles.mainViewStyle}>
                     <View style={{flexDirection:"row"}}>
                             <Text style={styles.mainHeading}>II. Website</Text>
                             <Pressable style={styles.iconStyle} onPress={()=> setShowWebsite(!showWebsite)}>
@@ -60,7 +60,7 @@ const TermCondition = () => {
                         <Text style={styles.mainParagraph}>Once we receive the order, before delivery we will call and confirm the delivery location and time. We do free delivery across Bangalore and Mysore as per the scheduled policy from our fulfillment center which is located in Pandavapura, Mandya. The minimum order value should be Rs. 500 Products will be packaged based on the type of items (Fruits & Vegetables, Grocery, Oils/Ghee, and Dairy Products). We are also practicing zero waste packaging for online delivery with the help of cotton cloth bags and glass jars and we return those bags and glass jars after delivering to the customer. This is our Innovative step to make eco-friendly Bangalore and Mysore with the help of our FTLON customers.</Text>
                     </View>
             </View>
-            <View style={{marginTop:20,marginLeft:0,paddingBottom:20,borderBottomWidth:.25,borderColor:Colors .GRAY,width:"94%",alignSelf:"center"}}>
+            <View style={styles.mainViewStyle}>
                     <View style={{flexDirection:"row"}}>
                             <Text style={styles.mainHeading}>IV. Limitation of liability</Text>
                             <Pressable style={styles.iconStyle} onPress={()=> setShowLimitationOfLiability(!showLimitationOfLiability)}>
@@ -75,7 +75,7 @@ const TermCondition = () => {
                         <Text style={styles.mainParagraph}>Once we receive the order, before delivery we will call and confirm the delivery location and time. We do free delivery across Bangalore and Mysore as per the scheduled policy from our fulfillment center which is located in Pandavapura, Mandya. The minimum order value should be Rs. 500 Products will be packaged based on the type of items (Fruits & Vegetables, Grocery, Oils/Ghee, and Dairy Products). We are also practicing zero waste packaging for online delivery with the help of cotton cloth bags and glass jars and we return those bags and glass jars after delivering to the customer. This is our Innovative step to make eco-friendly Bangalore and Mysore with the help of our FTLON customers.</Text>
                     </View>
             </View>
-            <View style={{marginTop:20,marginLeft:0,paddingBottom:20,borderBottomWidth:.25,borderColor:Colors .GRAY,width:"94%",alignSelf:"center"}}>
+            <View style={styles.mainViewStyle}>
                     <View style={{flexDirection:"row"}}>
                             <Text style={styles.mainHeading}>V. Indemnification</Text>
                             <Pressable style={styles.iconStyle} onPress={()=> setShowIndemnification(!showIndemnification)}>
@@ -90,7 +90,7 @@ const TermCondition = () => {
                         <Text style={styles.mainParagraph}>Once we receive the order, before delivery we will call and confirm the delivery location and time. We do free delivery across Bangalore and Mysore as per the scheduled policy from our fulfillment center which is located in Pandavapura, Mandya. The minimum order value should be Rs. 500 Products will be packaged based on the type of items (Fruits & Vegetables, Grocery, Oils/Ghee, and Dairy Products). We are also practicing zero waste packaging for online delivery with the help of cotton cloth bags and glass jars and we return those bags and glass jars after delivering to the customer. This is our Innovative step to make eco-friendly Bangalore and Mysore with the help of our FTLON customers.</Text>
                     </View>
             </View>
-            <View style={{marginTop:20,marginLeft:0,paddingBottom:20,borderBottomWidth:.25,borderColor:Colors .GRAY,width:"94%",alignSelf:"center"}}>
+            <View style={styles.mainViewStyle}>
                     <View style={{flexDirection:"row"}}>
                             <Text style={styles.mainHeading}>VI. Privacy</Text>
                             <Pressable style={styles.iconStyle} onPress={()=> setShowPrivacy(!showPrivacy)}>
@@ -105,7 +105,7 @@ const TermCondition = () => {
                         <Text style={styles.mainParagraph}>Once we receive the order, before delivery we will call and confirm the delivery location and time. We do free delivery across Bangalore and Mysore as per the scheduled policy from our fulfillment center which is located in Pandavapura, Mandya. The minimum order value should be Rs. 500 Products will be packaged based on the type of items (Fruits & Vegetables, Grocery, Oils/Ghee, and Dairy Products). We are also practicing zero waste packaging for online delivery with the help of cotton cloth bags and glass jars and we return those bags and glass jars after delivering to the customer. This is our Innovative step to make eco-friendly Bangalore and Mysore with the help of our FTLON customers.</Text>
                     </View>
             </View>
-            <View style={{marginTop:20,marginLeft:0,paddingBottom:20,borderBottomWidth:.25,borderColor:Colors .GRAY,width:"94%",alignSelf:"center"}}>
+            <View style={styles.mainViewStyle}>
                     <View style={{flexDirection:"row"}}>
                             <Text style={styles.mainHeading}>VII. Agreement to be bound</Text>
                             <Pressable style={styles.iconStyle} onPress={()=> setShowAgreementToBeBound(!showAgreementToBeBound)}>
@@ -120,7 +120,7 @@ const TermCondition = () => {
                         <Text style={styles.mainParagraph}>Once we receive the order, before delivery we will call and confirm the delivery location and time. We do free delivery across Bangalore and Mysore as per the scheduled policy from our fulfillment center which is located in Pandavapura, Mandya. The minimum order value should be Rs. 500 Products will be packaged based on the type of items (Fruits & Vegetables, Grocery, Oils/Ghee, and Dairy Products). We are also practicing zero waste packaging for online delivery with the help of cotton cloth bags and glass jars and we return those bags and glass jars after delivering to the customer. This is our Innovative step to make eco-friendly Bangalore and Mysore with the help of our FTLON customers.</Text>
                     </View>
             </View>
-            <View style={{marginTop:20,marginLeft:0,paddingBottom:20,borderBottomWidth:.25,borderColor:Colors .GRAY,width:"94%",alignSelf:"center"}}>
+            <View style={styles.mainViewStyle}>
                     <View style={{flexDirection:"row"}}>
                             <Text style={styles.mainHeading}>VIII. General</Text>
                             <Pressable style={styles.iconStyle} onPress={()=> setShowGeneral(!showGeneral)}>
@@ -146,6 +146,15 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         textAlign: "center",
+      },
+      mainViewStyle:{
+        marginTop:20,
+        marginLeft:0,
+        paddingBottom:20,
+        borderBottomWidth:.25,
+        borderColor:Colors .GRAY,
+        width:"94%",
+        alignSelf:"center"
       },
       mainHeading:{
         fontWeight:"400",fontSize:15,color:"#314626"

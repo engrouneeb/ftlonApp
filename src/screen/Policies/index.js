@@ -9,10 +9,7 @@ const Plicies = () => {
     const [showShippingPolicy,setshowShippingPolicy] = useState(false);
     return (
         <ScrollView style={{backgroundColor:Colors.WHITE}}>
-            <View style={{borderBottomWidth:.25,marginHorizontal:10,borderColor:Colors .GRAY,height:50}}>
-                <Text style={{marginTop:10,marginLeft:10,fontWeight:"600",fontSize:16,color:"#314626"}}>Policies</Text>
-            </View>
-            <View style={{marginVertical:20,marginLeft:0,paddingBottom:20,borderBottomWidth:.25,borderColor:Colors .GRAY,width:"90%",alignSelf:"center"}}>
+            <View style={styles.mainViewStyle}>
                 <View style={{flexDirection:"row"}}>
                         <Text style={styles.mainHeading}>Shipping Policies</Text>
                         <Pressable style={styles.iconStyle} onPress={()=> setshowShippingPolicy(!showShippingPolicy)}>
@@ -27,7 +24,7 @@ const Plicies = () => {
                     <Text style={styles.mainParagraph}>Once we receive the order, before delivery we will call and confirm the delivery location and time. We do free delivery across Bangalore and Mysore as per the scheduled policy from our fulfillment center which is located in Pandavapura, Mandya. The minimum order value should be Rs. 500 Products will be packaged based on the type of items (Fruits & Vegetables, Grocery, Oils/Ghee, and Dairy Products). We are also practicing zero waste packaging for online delivery with the help of cotton cloth bags and glass jars and we return those bags and glass jars after delivering to the customer. This is our Innovative step to make eco-friendly Bangalore and Mysore with the help of our FTLON customers.</Text>
                 </View>
             </View>
-            <View style={{marginBottom:10,marginLeft:0,paddingBottom:15,borderBottomWidth:.25,borderColor:Colors .GRAY,width:"90%",alignSelf:"center"}}>
+            <View style={styles.mainViewStyle}>
                 <View style={{flexDirection:"row"}}>
                     <Text style={styles.mainHeading}>Returns & Refunds</Text>
                     <Pressable style={styles.iconStyle} onPress={()=> setshowReturnAndRefund(!showReturnAndRefund)}>
@@ -61,7 +58,7 @@ const Plicies = () => {
                     <Text style={styles.normalText}>Please allow us<Text style={{fontWeight:"bold"}}> 7 working days</Text> to get back to you on your refund request.</Text>
                 </View>
       </View>
-            <View style={{marginTop:10,marginLeft:0,paddingBottom:20,borderBottomWidth:.25,borderColor:Colors .GRAY,width:"90%",alignSelf:"center"}}>
+            <View style={styles.mainViewStyle}>
                 <View style={{flexDirection:"row"}}>
                     <Text style={styles.mainHeading}>Privacy Policy</Text>
                         <Pressable style={styles.iconStyle} onPress={()=> setShowDetialPrivacyPolicy(!showDetialPrivacyPolicy)}>
@@ -150,6 +147,15 @@ const styles = StyleSheet.create({
       },
       mainHeading:{
         fontWeight:"300",fontSize:14,color:"#314626"
+      },
+      mainViewStyle:{
+        marginTop:20,
+        marginLeft:0,
+        paddingBottom:20,
+        borderBottomWidth:.25,
+        borderColor:Colors .GRAY,
+        width:"90%",
+        alignSelf:"center"
       },
       heading:{
         marginTop:10, 
